@@ -1,9 +1,12 @@
 /**
+ notes: put additional notes and not just crop notes
+ when clicking on viallager, show favourite gifts or link to external villagers info page 
+
  * Checklist-model
  * AngularJS directive for list of checkboxes
  * https://github.com/vitalets/checklist-model
  * License: MIT http://opensource.org/licenses/MIT
- */
+ **/
 
 angular.module('checklist-model', [])
 .directive('checklistModel', ['$parse', '$compile', function($parse, $compile) {
